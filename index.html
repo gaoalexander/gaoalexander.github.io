@@ -23,10 +23,7 @@
               <p>I am a second-year PhD student in Computer Science at University of Maryland, College Park, advised by Ming C. Lin in the <a href="gamma.umd.edu">GAMMA Lab</a>. My research interests revolve around Inverse Graphics, Physically-Based Simulation and Scientific Computing.
               </p>
               <p>
-                <b>Fall 2022: I am interning at Google on the Geo AR team.</b>
-              </p>
-              <p>
-                Previously, I worked as an Applied Scientist at AWS Robotics. I completed my Master's in Computer Science at New York University, where I was fortunate to gain research experience working with Ken Perlin and Lerrel Pinto. I received my Bachelor's in Film Production from USC School of Cinematic Arts.
+                Previously, I worked as an Applied Scientist at AWS Robotics. I completed my M.S. in Computer Science at New York University, where I was lucky to gain research experience working with Ken Perlin and Lerrel Pinto. I received my B.A. in Film Production from USC School of Cinematic Arts.
               </p>
               <p style="text-align:center">
                 <a href="mailto:gaoalexander@gmail.com">Email</a> &nbsp/&nbsp
@@ -34,6 +31,12 @@
                 <a href="https://scholar.google.com/citations?user=uoNPrRUAAAAJ">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://twitter.com/deedzgao">Twitter</a> &nbsp/&nbsp
                 <a href="https://github.com/gaoalexander/">Github</a>
+              </p>
+              <p>
+                <b>NEWS:</b>
+                <BR>
+                <b><br>9/22:</b>&nbsp;&nbsp;&nbsp;Our paper <b>NeuPhysics</b> is accepted to NeurIPS 2022!
+                <b><br>8/22:</b>&nbsp;&nbsp;&nbsp;I began my internship at Google Geo AR.
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -49,6 +52,40 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="c5_stop()" onmouseover="c5_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='neuphysics_thumbnail'>
+                  <img src='images/neuphysics_thumbnail.png' width="180"></div>
+                <img src='images/neuphysics_thumbnail.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function c5_start() {
+                  document.getElementById('SNAC_thumbnail').style.opacity = "1";
+                }
+
+                function c5_stop() {
+                  document.getElementById('SNAC_thumbnail').style.opacity = "0";
+                }
+                c5_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>NeuPhysics: Editable Neural Geometry and Physics from Monocular Videos</papertitle>
+              <br>
+              36th Conference on Neural Information Processing Systems (NeurIPS), 2022
+              <br>
+              <br>
+              <b>Alexander Gao</b>*, Yi-Ling Qiao*, and Ming C. Lin.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>*Joint first authors.</em>
+              <br>
+              <br>
+              <a href="">Paper and code coming soon.</a>
+              <p></p>
+              <p>We present a method for learning 3D geometry and physics parameters of a dynamic scene from only a monocular RGB video input. To decouple the learning of underlying scene geometry from dynamic motion, we learn a time-invariant signed distance function (SDF) which serves as a reference frame, as well as an associated deformation field that is conditioned on time. We further design a two-way conversion between the neural field representation and its corresponding hexahedral mesh. This hybrid representation allows us to bridge the neural geometry representation with a differentiable physics simulator, and therefore estimate physics parameters from the source video by minimizing a cycle consistency loss. It also allows a user to interactively edit 3D objects from the source video by editing the recovered hexahedral mesh, and propagating the operation back to the neural field representation. Experiments show that our method achieves higher-quality mesh and video reconstruction of dynamic scenes compared to other competitive Neural Field methods, and we provide extensive examples which demonstrate its ability to extract useful 3D representations of dynamic scenes from videos captured with consumer-grade cameras.
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="c5_stop()" onmouseover="c5_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -72,16 +109,11 @@
                 <papertitle>Simultaneous Navigation and Construction Benchmarking Environments</papertitle>
               </a>
               <br>
-              <a href="https://github.com/WenyuHan-LiNa">Wenyu Han</a>, 
-              <a href="https://engineering.nyu.edu/faculty/chen-feng">Chen Feng</a>, 
-              <a href="https://www.linkedin.com/in/haoran-lucas-ng-4053471a0/">Haoran Wu</a>, 
-              Alexander Gao, 
-              <a href="https://wp.nyu.edu/machinesinmotion/people/">Armand Jordana</a>, 
-              <a href="http://mechatronics.engineering.nyu.edu/people/phd-candidates/dongdong-liu.php">Dong Liu</a>, 
-              <a href="https://www.lerrelpinto.com/">Lerrel Pinto</a>, 
-              <a href="https://wp.nyu.edu/machinesinmotion/89-2/">Ludovic Righetti</a>
+              arXiv Preprint, 2021
               <br>
-              <em>arXiv</em>, 2021 &nbsp
+              <br>
+              Wenyu Han, Chen Feng, Haoran Wu, <b>Alexander Gao</b>, Armand Jordana, Dongdong Liu, Lerrel Pinto, and Ludovic Righetti.
+              <br>
               <br>
               <a href="https://arxiv.org/abs/2103.16732">Paper</a> /
               <a href="https://github.com/ai4ce/SNAC">Code</a> /
