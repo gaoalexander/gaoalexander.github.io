@@ -36,10 +36,13 @@
                 <a href="https://github.com/gaoalexander/">Github</a>
               </p>
               <p>
-                <b>NEWS:</b>
+                <b><font size="+1">News:</font></b>
                 <BR>
-                <b><br>9/22:</b>&nbsp;&nbsp;&nbsp;Our paper <b>NeuPhysics</b> is accepted to NeurIPS 2022!
-                <b><br>8/22:</b>&nbsp;&nbsp;&nbsp;I began my internship at Google Geo AR.
+                <b><br>Jan 2023:</b>&nbsp;&nbsp;&nbsp;<b>Simultaneous Navigation and Construction</b> is accepted to ICLR 2023. Congratulations to lead author Wenyu Han and all collaborators!
+                <BR>
+                <b><br>Sept 2022:</b>&nbsp;&nbsp;&nbsp;Our paper <b>NeuPhysics</b> is accepted to NeurIPS 2022!
+                <BR>
+                <b><br>Aug 2022:</b>&nbsp;&nbsp;&nbsp;I began my internship at Google Geo AR.
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -49,18 +52,19 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
+            <td style="padding:20px;width:100%;vertical-align:left">
               <heading>Research</heading>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="c5_stop()" onmouseover="c5_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+
+                  <tr onmouseout="c5_stop()" onmouseover="c5_start()">
+            <td style="padding:20px;width:33.3%;vertical-align:top">
               <div class="one">
-                <div class="two" id='neuphysics_thumbnail'>
-                  <img src='images/neuphysics_thumbnail.png' width="180"></div>
-                <img src='images/neuphysics_thumbnail.png' width="180">
+                <div class="two" id='SNAC_thumbnail'>
+                  <img src='images/SNAC_thumbnail.png' width="265"></div>
+                <img src='images/SNAC_thumbnail.png' width="265">
               </div>
               <script type="text/javascript">
                 function c5_start() {
@@ -73,7 +77,46 @@
                 c5_stop()
               </script>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:20px;width:65%;vertical-align:top">
+              <a href="https://ai4ce.github.io/SNAC/" target="_blank">
+                <papertitle>Learning Simultaneous Navigation and Construction in Grid Worlds</papertitle>
+              </a>
+              <br>
+              ICLR, 2023
+              <br>
+              <br>
+              Wenyu Han, Haoran Wu, Eisuke Hirota, <b>Alexander Gao</b>, Lerrel Pinto, Ludovic Righetti, and Chen Feng.
+              <br>
+              <br>
+              <a href="https://openreview.net/forum?id=NEtep2C7yD" target="_blank">Paper</a> /
+              <a href="https://github.com/ai4ce/SNAC_ICLR" target="_blank">Code</a> /
+              <a href="https://ai4ce.github.io/SNAC_ICLR/" target="_blank">Website</a>
+              <p></p>
+              <p>We propose to study a new learning task, mobile construction, to enable an agent to build designed structures in 1/2/3D grid worlds while navigating in the same evolving environments. Unlike existing robot learning tasks such as visual navigation and object manipulation, this task is challenging because of the interdependence between accurate localization and strategic construction planning. In pursuit of generic and adaptive solutions to this partially observable Markov decision process (POMDP) based on deep reinforcement learning (RL), we design
+a Deep Recurrent Q-Network (DRQN) with explicit recurrent position estimation in this dynamic grid world. Our extensive experiments show that pre-training this position estimation module before Q-learning can significantly improve the construction performance measured by the intersection-over-union score, achieving the best results in our benchmark of various baselines including model-free and model-based RL, a handcrafted SLAM-based policy, and human players.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="c5_stop()" onmouseover="c5_start()">
+            <td style="padding:20px;width:33.3%;vertical-align:top">
+              <div class="one">
+                <div class="two" id='neuphysics_thumbnail'>
+                  <img src='images/neuphysics_thumbnail.png' width="265"></div>
+                <img src='images/neuphysics_thumbnail.png' width="265">
+              </div>
+              <script type="text/javascript">
+                function c5_start() {
+                  document.getElementById('SNAC_thumbnail').style.opacity = "1";
+                }
+
+                function c5_stop() {
+                  document.getElementById('SNAC_thumbnail').style.opacity = "0";
+                }
+                c5_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:top">
               <a href="https://sites.google.com/view/neuphysics" target="_blank">
                 <papertitle>NeuPhysics: Editable Neural Geometry and Physics from Monocular Videos</papertitle>
               </a>
@@ -91,43 +134,6 @@
             </td>
           </tr>
 
-          <tr onmouseout="c5_stop()" onmouseover="c5_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='SNAC_thumbnail'>
-                  <img src='images/SNAC_thumbnail.png' width="180"></div>
-                <img src='images/SNAC_thumbnail.png' width="180">
-              </div>
-              <script type="text/javascript">
-                function c5_start() {
-                  document.getElementById('SNAC_thumbnail').style.opacity = "1";
-                }
-
-                function c5_stop() {
-                  document.getElementById('SNAC_thumbnail').style.opacity = "0";
-                }
-                c5_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://ai4ce.github.io/SNAC/" target="_blank">
-                <papertitle>Simultaneous Navigation and Construction Benchmarking Environments</papertitle>
-              </a>
-              <br>
-              arXiv Preprint, 2021
-              <br>
-              <br>
-              Wenyu Han, Chen Feng, Haoran Wu, <b>Alexander Gao</b>, Armand Jordana, Dongdong Liu, Lerrel Pinto, and Ludovic Righetti.
-              <br>
-              <br>
-              <a href="https://arxiv.org/abs/2103.16732" target="_blank">Paper</a> /
-              <a href="https://github.com/ai4ce/SNAC" target="_blank">Code</a> /
-              <a href="https://ai4ce.github.io/SNAC/" target="_blank">Website</a>
-              <p></p>
-              <p>We need intelligent robots for mobile construction, the process of navigating in an environment and modifying its structure according to a geometric design. In this task, a major robot vision and learning challenge is how to exactly achieve the design without GPS, due to the difficulty caused by the bi-directional coupling of accurate robot localization and navigation together with strategic environment manipulation. To stimulate the pursuit of a generic and adaptive solution, we reasonably simplify mobile construction as a partially observable Markov decision process (POMDP) in 1/2/3D grid worlds and benchmark the performance of a handcrafted policy with basic localization and planning, and state-of-the-art deep reinforcement learning (RL) methods.
-              </p>
-            </td>
-          </tr>
         </tbody></table>
         <br>
         <br>
