@@ -1,3 +1,3 @@
 [submodule "vector-heat-network"]
     path = vector-heat-network  # Replace with the correct path
-    url = https://github.com/gaoalexander/gaoalexander.github.io/vector-heat-network.git  # Replace with the actual URL
+    url = https://github.com/gaoalexander/vector-heat-network.git  # Replace with the actual URL
