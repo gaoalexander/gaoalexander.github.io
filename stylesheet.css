@@ -91,7 +91,7 @@ h2 {
 
 .pub {
   display: grid;
-  grid-template-columns: 56px 180px 1fr;
+  grid-template-columns: 56px 220px 1fr;
   gap: 12px 28px;
   padding: 24px 0;
   border-bottom: 1px solid var(--hair);
@@ -192,7 +192,7 @@ footer {
 
   .pub .thumb {
     grid-column: 2;
-    max-width: 260px;
+    max-width: 300px;
   }
 
   .pub .body {
