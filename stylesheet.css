@@ -81,7 +81,7 @@ header nav {
 
 .intro {
   display: grid;
-  grid-template-columns: 1fr 240px;
+  grid-template-columns: 1fr 255px;
   gap: 40px;
   margin-top: 40px;
   align-items: start;
@@ -99,7 +99,7 @@ header nav {
 }
 
 figure {
-  margin: 0;
+  margin: 7px 0 0;
   position: relative;
 }
 
@@ -107,7 +107,7 @@ figcaption {
   position: absolute;
   top: 100%;
   right: 0;
-  margin-top: 5px;
+  margin-top: 15px;
   font-size: 8px;
   line-height: 1;
   color: var(--ink-2);
@@ -234,6 +234,11 @@ h2 {
 
   .intro figure {
     order: -1;
+    margin-top: 0;
+  }
+
+  figcaption {
+    margin-top: 5px;
   }
 
   .service {
