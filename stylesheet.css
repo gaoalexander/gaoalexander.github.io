@@ -222,6 +222,12 @@ h2 {
   }
 
   .pub .thumb {
-    max-width: 340px;
+    max-width: none;
+  }
+
+  .intro .text p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
   }
 }
