@@ -3,7 +3,7 @@
   --ink-2: #5a5852;
   --hair: #cfcbc1;
   --ground: #ebe8e1;
-  --accent: #ff5a1f;
+  --accent: #ff4a00;
 }
 
 body {
@@ -45,7 +45,7 @@ a:focus-visible {
 }
 
 ::selection {
-  background: #ffd9c7;
+  background: #ffd3bf;
   color: var(--ink);
 }
 
