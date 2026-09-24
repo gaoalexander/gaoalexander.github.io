@@ -229,10 +229,4 @@ h2 {
   .pub .thumb img {
     height: auto;
   }
-
-  .intro .text p {
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-  }
 }
