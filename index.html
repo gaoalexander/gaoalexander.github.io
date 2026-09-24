@@ -11,111 +11,113 @@
     <meta property="og:image" content="https://gaoalexander.github.io/images/profile.jpg">
     <meta property="og:url" content="https://gaoalexander.github.io/">
     <meta property="og:type" content="website">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
 <main>
-    <header class="intro">
-        <div class="bio">
-            <h1>Alexander Gao</h1>
-            <p class="links">
-                <a href="data/AlexanderGao_CV_Spring2025.pdf">CV</a> |
-                <a href="https://scholar.google.com/citations?user=uoNPrRUAAAAJ">Google Scholar</a> |
-                <a href="https://github.com/gaoalexander/">GitHub</a>
-            </p>
+    <header>
+        <h1>Alexander Gao</h1>
+        <nav>
+            <a href="data/AlexanderGao_CV_Spring2025.pdf">CV</a>
+            <a href="https://scholar.google.com/citations?user=uoNPrRUAAAAJ">Google Scholar</a>
+            <a href="https://github.com/gaoalexander/">GitHub</a>
+        </nav>
+    </header>
 
+    <section class="intro">
+        <div class="text">
             <p>Hello, I am a PhD student in Computer Science at University of Maryland, College Park,
                advised by <a href="https://www.cs.umd.edu/~lin/">Ming C. Lin</a>.</p>
-
-            <p><i>My research goal</i> is to develop techniques for applying machine learning to geometric
+            <p>My research goal is to develop techniques for applying machine learning to geometric
                problems in computer graphics, to enable new ways for artists and engineers to create.
-               <b><i>Research interests include</i></b>: animation and simulation, geometry processing, and
-               geometric deep learning.</p>
-
+               Research interests include animation and simulation, geometry processing, and geometric
+               deep learning.</p>
             <p>I have previously interned at World Labs, Roblox and Google. Prior to that, I worked as a
                software engineer at Amazon. I completed my MS in Computer Science at NYU, and BA in Film
                Production at USC School of Cinematic Arts.</p>
-
-            <p>Don't hesitate to reach out at: <span class="email">gaoalexander [at] gmail dot com</span></p>
+            <p>Don't hesitate to reach out at gaoalexander [at] gmail dot com.</p>
         </div>
-        <a class="photo" href="images/AlexanderGao.jpg">
-            <img src="images/profile.jpg" alt="Photo of Alexander Gao" width="600" height="600">
+        <img src="images/profile.jpg" alt="Photo of Alexander Gao" width="600" height="600">
+    </section>
+
+    <h2>Publications</h2>
+
+    <article class="pub">
+        <div>2024</div>
+        <a class="thumb" href="https://gaoalexander.github.io/vector-heat-network/">
+            <img src="images/vhn.webp" alt="Vector fields on a train shape, a test shape, and an error map">
         </a>
-    </header>
-
-    <section>
-        <h2>Research</h2>
-
-        <article class="paper">
-            <a class="thumb" href="https://gaoalexander.github.io/vector-heat-network/">
-                <img src="images/vhn.webp" alt="Vector fields on a train shape, a test shape, and an error map">
-            </a>
-            <div>
-                <a class="title" href="https://gaoalexander.github.io/vector-heat-network/">An Intrinsic Vector Heat Network</a><br>
-                International Conference on Machine Learning (ICML), 2024
-                <p><b>Alexander Gao</b>, Maurice Chu, Mubbasir Kapadia, Ming C. Lin, and Hsueh-Ti Derek Liu</p>
-                <p><a href="https://arxiv.org/abs/2406.09648">Paper</a> /
-                   <a href="https://github.com/gaoalexander/vector-heat-net/">Code</a> /
-                   <a href="https://gaoalexander.github.io/vector-heat-network/">Website</a></p>
+        <div class="body">
+            <a class="title" href="https://gaoalexander.github.io/vector-heat-network/">An Intrinsic Vector Heat Network</a>
+            <div class="venue">International Conference on Machine Learning (ICML)</div>
+            <p class="authors"><b>Alexander Gao</b>, Maurice Chu, Mubbasir Kapadia, Ming C. Lin, and Hsueh-Ti Derek Liu</p>
+            <div class="links">
+                <a href="https://arxiv.org/abs/2406.09648">Paper</a>
+                <a href="https://github.com/gaoalexander/vector-heat-net/">Code</a>
+                <a href="https://gaoalexander.github.io/vector-heat-network/">Website</a>
             </div>
-        </article>
+        </div>
+    </article>
 
-        <article class="paper">
-            <a class="thumb" href="https://mesh-aware-rf.github.io/">
-                <img src="images/dmrf.webp" alt="A wireframe lamp mesh and its rendering inside a radiance field">
-            </a>
-            <div>
-                <a class="title" href="https://mesh-aware-rf.github.io/">Dynamic Mesh-Aware Radiance Fields</a><br>
-                International Conference on Computer Vision (ICCV), 2023
-                <p><b>Alexander Gao</b>*, Yi-Ling Qiao*, Yiran Xu, Yue Feng, Jia-Bin Huang, and Ming C. Lin</p>
-                <p><a href="https://arxiv.org/abs/2309.04581">Paper</a> /
-                   <a href="https://github.com/YilingQiao/DMRF">Code</a> /
-                   <a href="https://mesh-aware-rf.github.io/">Website</a></p>
+    <article class="pub">
+        <div>2023</div>
+        <a class="thumb" href="https://mesh-aware-rf.github.io/">
+            <img src="images/dmrf.webp" alt="A wireframe lamp mesh and its rendering inside a radiance field">
+        </a>
+        <div class="body">
+            <a class="title" href="https://mesh-aware-rf.github.io/">Dynamic Mesh-Aware Radiance Fields</a>
+            <div class="venue">International Conference on Computer Vision (ICCV)</div>
+            <p class="authors"><b>Alexander Gao</b>*, Yi-Ling Qiao*, Yiran Xu, Yue Feng, Jia-Bin Huang, and Ming C. Lin</p>
+            <div class="links">
+                <a href="https://arxiv.org/abs/2309.04581">Paper</a>
+                <a href="https://github.com/YilingQiao/DMRF">Code</a>
+                <a href="https://mesh-aware-rf.github.io/">Website</a>
             </div>
-        </article>
+        </div>
+    </article>
 
-        <article class="paper">
-            <a class="thumb" href="https://ai4ce.github.io/SNAC_ICLR/">
-                <img src="images/snac.webp" alt="A robot building a structure of blocks from a map">
-            </a>
-            <div>
-                <a class="title" href="https://ai4ce.github.io/SNAC_ICLR/">Learning Simultaneous Navigation and Construction in Grid Worlds</a><br>
-                International Conference on Learning Representations (ICLR), 2023
-                <p>Wenyu Han, Haoran Wu, Eisuke Hirota, <b>Alexander Gao</b>, Lerrel Pinto, Ludovic Righetti, and Chen Feng</p>
-                <p><a href="https://openreview.net/forum?id=NEtep2C7yD">Paper</a> /
-                   <a href="https://github.com/ai4ce/SNAC">Code</a> /
-                   <a href="https://ai4ce.github.io/SNAC_ICLR/">Website</a></p>
+    <article class="pub">
+        <div>2023</div>
+        <a class="thumb" href="https://ai4ce.github.io/SNAC_ICLR/">
+            <img src="images/snac.webp" alt="A robot building a structure of blocks from a map">
+        </a>
+        <div class="body">
+            <a class="title" href="https://ai4ce.github.io/SNAC_ICLR/">Learning Simultaneous Navigation and Construction in Grid Worlds</a>
+            <div class="venue">International Conference on Learning Representations (ICLR)</div>
+            <p class="authors">Wenyu Han, Haoran Wu, Eisuke Hirota, <b>Alexander Gao</b>, Lerrel Pinto, Ludovic Righetti, and Chen Feng</p>
+            <div class="links">
+                <a href="https://openreview.net/forum?id=NEtep2C7yD">Paper</a>
+                <a href="https://github.com/ai4ce/SNAC">Code</a>
+                <a href="https://ai4ce.github.io/SNAC_ICLR/">Website</a>
             </div>
-        </article>
+        </div>
+    </article>
 
-        <article class="paper">
-            <a class="thumb" href="https://sites.google.com/view/neuphysics">
-                <img src="images/neuphysics.webp" alt="A tennis ball in a video frame and its reconstructed geometry">
-            </a>
-            <div>
-                <a class="title" href="https://sites.google.com/view/neuphysics">NeuPhysics: Editable Neural Geometry and Physics from Monocular Videos</a><br>
-                Conference on Neural Information Processing Systems (NeurIPS), 2022
-                <p><b>Alexander Gao</b>*, Yi-Ling Qiao*, and Ming C. Lin</p>
-                <p><a href="https://arxiv.org/abs/2210.12352">Paper</a> /
-                   <a href="https://github.com/gaoalexander/neuphysics">Code</a> /
-                   <a href="https://sites.google.com/view/neuphysics">Website</a></p>
+    <article class="pub">
+        <div>2022</div>
+        <a class="thumb" href="https://sites.google.com/view/neuphysics">
+            <img src="images/neuphysics.webp" alt="A tennis ball in a video frame and its reconstructed geometry">
+        </a>
+        <div class="body">
+            <a class="title" href="https://sites.google.com/view/neuphysics">NeuPhysics: Editable Neural Geometry and Physics from Monocular Videos</a>
+            <div class="venue">Conference on Neural Information Processing Systems (NeurIPS)</div>
+            <p class="authors"><b>Alexander Gao</b>*, Yi-Ling Qiao*, and Ming C. Lin</p>
+            <div class="links">
+                <a href="https://arxiv.org/abs/2210.12352">Paper</a>
+                <a href="https://github.com/gaoalexander/neuphysics">Code</a>
+                <a href="https://sites.google.com/view/neuphysics">Website</a>
             </div>
-        </article>
+        </div>
+    </article>
 
-        <p class="note">* equal contribution</p>
-    </section>
-
-    <section>
-        <h2>Academic Service</h2>
-        <p><b><i>Reviewer:</i></b> NeurIPS (2025), ICML (2024), SIGGRAPH (2024), IEEE RA-L (2024), ICLR (2024), NeurIPS (2023)</p>
-    </section>
+    <h2>Academic service</h2>
+    <p class="service">Reviewer for NeurIPS (2025), ICML (2024), SIGGRAPH (2024), IEEE RA-L (2024), ICLR (2024), and NeurIPS (2023).</p>
 
     <footer>
-        This site is based on <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's template</a>.
+        <span>* equal contribution</span>
+        <span>Updated September 2026</span>
     </footer>
 </main>
 </body>
