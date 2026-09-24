@@ -223,6 +223,11 @@ h2 {
 
   .pub .thumb {
     max-width: none;
+    aspect-ratio: auto;
+  }
+
+  .pub .thumb img {
+    height: auto;
   }
 
   .intro .text p {
