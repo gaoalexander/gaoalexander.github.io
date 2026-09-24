@@ -65,7 +65,7 @@ header nav {
 
 .intro {
   display: grid;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 240px;
   gap: 40px;
   margin-top: 40px;
   align-items: start;
@@ -164,7 +164,7 @@ footer {
   }
 
   .intro img {
-    max-width: 180px;
+    max-width: 220px;
   }
 
   .pub {
