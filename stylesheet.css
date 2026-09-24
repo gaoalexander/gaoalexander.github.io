@@ -40,6 +40,7 @@ a:focus-visible {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 header {
