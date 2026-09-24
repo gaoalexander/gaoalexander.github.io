@@ -100,11 +100,16 @@ header nav {
 
 figure {
   margin: 0;
+  position: relative;
 }
 
 figcaption {
-  margin-top: 6px;
-  font-size: 12px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+  font-size: 9px;
+  line-height: 1;
   color: var(--ink-2);
 }
 
