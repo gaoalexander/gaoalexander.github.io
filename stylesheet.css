@@ -113,6 +113,10 @@ figcaption {
   color: var(--ink-2);
 }
 
+figcaption a {
+  text-underline-offset: 2px;
+}
+
 h2 {
   margin: 72px 0 0;
   font-size: 17px;
