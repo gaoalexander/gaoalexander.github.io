@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  max-width: 760px;
+  max-width: 784px;
   margin: 0 auto;
   padding: 72px 40px 96px;
 }
@@ -82,7 +82,7 @@ header nav {
 .intro {
   display: grid;
   grid-template-columns: 1fr 240px;
-  gap: 40px;
+  gap: 32px;
   margin-top: 40px;
   align-items: start;
 }
@@ -126,8 +126,8 @@ h2 {
 
 .pub {
   display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 12px 28px;
+  grid-template-columns: 240px 1fr;
+  gap: 12px 32px;
   padding: 24px 0;
   border-bottom: 1px solid var(--hair);
   align-items: start;
@@ -191,7 +191,7 @@ h2 {
 
 .service {
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 240px 1fr;
   margin: 4px 0 0;
   font-variant-numeric: tabular-nums;
 }
@@ -208,7 +208,7 @@ h2 {
 }
 
 .service dt {
-  padding-right: 28px;
+  padding-right: 32px;
 }
 
 .nowrap {
