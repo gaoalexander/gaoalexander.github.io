@@ -83,7 +83,7 @@ header nav {
   display: grid;
   grid-template-columns: 1fr 216px;
   gap: 32px;
-  margin-top: 56px;
+  margin-top: 40px;
   align-items: start;
 }
 
@@ -117,7 +117,7 @@ figcaption a {
 }
 
 h2 {
-  margin: 96px 0 0;
+  margin: 72px 0 0;
   font-size: 17px;
   font-weight: 500;
   padding-bottom: 10px;
@@ -128,7 +128,7 @@ h2 {
   display: grid;
   grid-template-columns: 340px 1fr;
   gap: 12px 32px;
-  padding: 40px 0;
+  padding: 24px 0;
   border-bottom: 1px solid var(--hair);
   align-items: start;
   font-variant-numeric: tabular-nums;
@@ -213,7 +213,7 @@ h2 {
 }
 
 .footnote {
-  margin-top: 20px;
+  margin-top: 12px;
   font-size: 13px;
   color: var(--ink-2);
 }
@@ -224,11 +224,7 @@ h2 {
   }
 
   h2 {
-    margin-top: 72px;
-  }
-
-  .pub {
-    padding: 32px 0;
+    margin-top: 56px;
   }
 
   .intro {
