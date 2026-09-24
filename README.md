@@ -1,1 +1,1 @@
-This is the source code to Alexander Gao's public academic website.  It is based on the templete originally created by https://jonbarron.info/.
+Source for Alexander Gao's academic website, gaoalexander.github.io. Static HTML and CSS, served by GitHub Pages from the master branch.

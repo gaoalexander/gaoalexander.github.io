@@ -75,6 +75,7 @@ header nav {
   display: grid;
   gap: 16px;
   max-width: 58ch;
+  text-wrap: pretty;
 }
 
 .intro .text p:first-child {
@@ -83,7 +84,7 @@ header nav {
 
 h2 {
   margin: 72px 0 0;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--ink);
@@ -114,6 +115,7 @@ h2 {
 .pub .title {
   font-weight: 500;
   text-decoration: none;
+  text-wrap: pretty;
 }
 
 .pub .title:hover {
@@ -123,6 +125,7 @@ h2 {
 .pub .venue,
 .pub .authors {
   color: var(--ink-2);
+  text-wrap: pretty;
 }
 
 .pub .authors {
@@ -147,9 +150,8 @@ h2 {
 
 .service {
   display: grid;
-  grid-template-columns: 152px 1fr;
+  grid-template-columns: 260px 1fr;
   margin: 4px 0 0;
-  max-width: 400px;
   font-variant-numeric: tabular-nums;
 }
 
@@ -162,6 +164,14 @@ h2 {
 
 .service dd {
   color: var(--ink-2);
+}
+
+.service dt {
+  padding-right: 28px;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 footer {
@@ -184,6 +194,11 @@ footer {
 
   .intro img {
     max-width: 220px;
+    order: -1;
+  }
+
+  .service {
+    grid-template-columns: 140px 1fr;
   }
 
   .pub {
